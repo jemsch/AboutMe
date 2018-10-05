@@ -1,0 +1,30 @@
+#name{
+    text-align: center;
+    font-family: 'Georgia', serif;
+    color:black;
+    size: 48;
+    font-weight:bold;
+}
+
+h3{ color: black;
+font-family: 'Georgia', serif;
+}
+
+p {font-family: 'Georgia', serif; }
+
+#topbar {  
+    text-align: center;
+    font-family: 'Georgia', serif;
+    font-size: 24;
+    color: black;
+    }
+
+    hr {
+        display: block;
+        height: 0px;
+        border: 0;
+        border-top: 4px solid #9FB5A0;
+        margin: 0, 0;
+        padding: 0;
+    }
+    
