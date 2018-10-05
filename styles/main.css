@@ -1,30 +1,38 @@
 #name{
     text-align: center;
-    font-family: 'Georgia', serif;
-    color:black;
-    size: 48;
+    font-family: 'Palatino Linotype', serif;
+    color:#67ae6d;
+    size: 100;
     font-weight:bold;
+    position: relative;
+    transform: translateY(+100%);
+}
+
+#top {
+    min-height:200px;
+    background-image: url("screensaver_bw.png");
+}
+
+#header{
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
 }
 
 h3{ color: black;
-font-family: 'Georgia', serif;
+font-family: 'Georgia', sans-serif;
 }
 
-p {font-family: 'Georgia', serif; }
+p {font-family: 'Trebuchet MS', sans-serif; }
 
-#topbar {  
-    text-align: center;
-    font-family: 'Georgia', serif;
-    font-size: 24;
-    color: black;
-    }
-
-    hr {
-        display: block;
-        height: 0px;
-        border: 0;
-        border-top: 4px solid #9FB5A0;
-        margin: 0, 0;
-        padding: 0;
+hr {
+    display: block;
+    height: 0px;
+    border: 0;
+    border-top: 4px solid #4B784F;
+    margin: 0, 0;
+    padding: 0;
     }
     
+    body{
+        background-color: #E3E3E3;
+    }
