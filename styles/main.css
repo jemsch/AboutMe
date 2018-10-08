@@ -1,28 +1,39 @@
-#name{
+#name {
     text-align: center;
-    font-family: 'Palatino Linotype', serif;
-    color:#67ae6d;
-    size: 100;
-    font-weight:bold;
+    /*font-family: 'Source Sans Pro', sans-serif;
+    /*color:#67ae6d;
+    size: 100;*/
+    font-family: 'Goergia', serif;
+    color:black;
+    size: 300px;
     position: relative;
     transform: translateY(+100%);
 }
 
 #top {
     min-height:200px;
-    background-image: url("screensaver_bw.png");
+    /*background-image: url("screensaver_bw2.png");*/
 }
 
-#header{
+#header {
     font-family: 'Helvetica', sans-serif;
     font-weight: bold;
 }
 
-h3{ color: black;
-font-family: 'Georgia', sans-serif;
+h2 { 
+    color: black;
+    font-family: 'Georgia', serif;
 }
 
-p {font-family: 'Trebuchet MS', sans-serif; }
+h3 { 
+color: black;
+font-family: 'Helvetica', sans-serif;
+}
+
+p {
+    font-family: 'Helvetica', sans-serif; 
+    line-height:30px;
+}
 
 hr {
     display: block;
@@ -33,6 +44,15 @@ hr {
     padding: 0;
     }
     
-    body{
-        background-color: #E3E3E3;
-    }
+body{
+        /*background-color: #E3E3E3;*/
+        background-color: #F2F2F2;
+}
+
+#main {
+    margin:50px;
+}
+
+#link {
+    color: #4B784F
+}
