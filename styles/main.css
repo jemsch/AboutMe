@@ -3,15 +3,18 @@
     /*font-family: 'Source Sans Pro', sans-serif;
     /*color:#67ae6d;
     size: 100;*/
-    font-family: 'Goergia', serif;
+    font-family: 'Helvetica', serif;
     color:black;
-    size: 300px;
     position: relative;
-    transform: translateY(+100%);
+    transform: translateY(+10%);
+    letter-spacing: 3px;
+    
+
 }
 
 #top {
     min-height:200px;
+    
     /*background-image: url("screensaver_bw2.png");*/
 }
 
@@ -22,17 +25,24 @@
 
 h2 { 
     color: black;
-    font-family: 'Georgia', serif;
+    font-family: 'Helvetica', serif;
+    text-align: center;
+    font-size: x-large;
+    letter-spacing: 2px;
+    
 }
 
 h3 { 
 color: black;
 font-family: 'Helvetica', sans-serif;
+text-align: center;
+letter-spacing: 1px;
 }
 
 p {
     font-family: 'Helvetica', sans-serif; 
     line-height:30px;
+    font-size: 20px;;
 }
 
 hr {
@@ -42,6 +52,7 @@ hr {
     border-top: 4px solid #4B784F;
     margin: 0, 0;
     padding: 0;
+    
     }
     
 body{
@@ -56,3 +67,37 @@ body{
 #link {
     color: #4B784F
 }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #4B784F;
+    color: white;
+    text-align: center;
+    min-height:5px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /*background-color: #E3E3E3;*/
+}
+li {
+    float: right;
+}
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 8px 10px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #a8c6aa;
+}
+    
