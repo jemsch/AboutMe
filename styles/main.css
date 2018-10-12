@@ -100,7 +100,8 @@ li a {
 }
 
 li a:hover {
-    background-color: #a8c6aa;
+    /*background-color: #a8c6aa;*/
+    color: #4B784F;
 }
 
 #small {
@@ -127,3 +128,7 @@ li a:hover {
     }
   }
     
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+  }
