@@ -10,6 +10,10 @@
     letter-spacing: 3px;
 }
 
+#book {
+    text-align:center;
+}
+
 #top {
     min-height:200px;
     
@@ -111,6 +115,8 @@ li a:hover {
     border-top: 2px solid #B9B9B9;
     width: 25%;
 }
+
+
 
 @media screen and (max-width: 1020px) {
     #main {

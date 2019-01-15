@@ -43,3 +43,8 @@
     margin-right: auto;   
     align: center;
 }
+
+#chap {
+    text-align: center;
+    line-height: 40px;
+}
