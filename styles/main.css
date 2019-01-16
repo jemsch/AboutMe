@@ -33,7 +33,21 @@ h2 {
     line-height: 1.5; 
 
 }
-h3, h4, h5 {
+h3 {
+    font-family: 'Open Sans', 'helvetica';
+    font-weight: normal;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    margin: 5px 0;
+    padding: 0;
+    z-index: 1;
+    position: relative;
+    line-height: 1.5; 
+
+}
+
+h4, h5 {
     font-family: 'Open Sans', 'helvetica';
     font-weight: normal;
     font-size: 16px;
@@ -61,16 +75,25 @@ p{
 .content{
     margin: 0 auto;
     width: 960px;
+    height: auto;
+}
+.contentLast{
+    margin: 0 auto;
+    width: 960px;
+    height: 300px;
+    text-align: center;
+    vertical-align: 50%;
 }
 .clear {
     clear: both;
 }
 #header {
     width: 100%;
-    background: url('../assets/header-bg.png');    height: 80px;
+    background: url('../assets/header-bg.png');
     position: fixed;
     margin-top: 30px;
-    opacity: 30%;
+    opacity: 0.75;
+    height: 80px;
 }
 #nav {
     width: 500px;
@@ -122,13 +145,13 @@ p{
     color: #fff;
     height: 350px;
     margin: 0;
-    padding: 200px 0 260px 0;
+    padding: 200px 0 250px 0;
     background-size: cover;
 }
 #slide2{
     background-color: #fff;
     color: #333333;
-    height: 650px;
+    height: 600px;
     margin: 0 auto;
     overflow: hidden;
     padding: 100px 0;
@@ -136,24 +159,25 @@ p{
 #slide3{
     background-image: linear-gradient(to right bottom, #154e26, #004439, #003745, #002945, #051937);
    color: #fff;
-    height: 600px;
+    height: 630px;
     padding: 170px 0 0 0;
     background-size: cover;
 }
 #slide4{
     background-color: #fff;
     color: #333333;
-    height: 300px;
-    padding: 200px 0;
+    height: 500px;
+    padding: 150px 0;
 }
 #slide5{
     background-image: linear-gradient(to right bottom, #154e26, #004439, #003745, #002945, #051937);
-    height: 200px;
+    height: 300px;
     margin: 0 auto;
-    padding: 250px 0;
+    padding: 250px 0 250px 0;
     color: #fff;
     background-size: cover;
 }
+
 
 #bookname {
     font-size:19px;
@@ -171,9 +195,63 @@ p{
 }
 
 #email {
-    color: #133844; 
-    text-decoration: none; 
-    font-size: 35px; 
-    text-align: center;"
+    text-align: center;
 }
 
+#email a {
+    color: #245d60; 
+    text-decoration: none; 
+    font-size: 27px; 
+    letter-spacing: 2px;
+    font-family: 'helvetica';
+    text-decoration: none
+}
+
+hr {
+    margin-right: 46%;
+    margin-left: 46%;
+    border: 2px solid black;   
+}
+
+#web{
+    font-size: 25px;
+    text-align: center;
+    line-height: 1.75;
+    /*#38603c*/
+}
+
+.buttonContainer {
+    text-align: center;
+    display: inline-block;
+    display: block;
+    margin-left: 45%;
+    margin-right: 45%;
+    
+}
+
+.button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 64px 128px;
+    text-align: center;
+    font-size: 48px;
+    margin: 8px 4px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    letter-spacing: 2.5px
+}
+  
+.button:hover {
+    opacity: 1
+}
+
+
+
+a {
+    text-align: center;
+}
